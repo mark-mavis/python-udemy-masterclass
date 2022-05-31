@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>18_escape_character.py</StartupFile>
+    <StartupFile>24_expressions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <Compile Include="18_escape_character.py" />
     <Compile Include="16_printing.py" />
     <Compile Include="17_strings.py" />
+    <Compile Include="20_variables_and_types.py" />
+    <Compile Include="22_numeric_data_types.py" />
+    <Compile Include="24_expressions.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
