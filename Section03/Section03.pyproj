@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>33_string_operators.py</StartupFile>
+    <StartupFile>34_string_replacement.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,8 @@
     <Compile Include="28_string_slicing.py" />
     <Compile Include="31_string_slicing_backwards.py" />
     <Compile Include="33_string_operators.py" />
+    <Compile Include="34_string_replacement.py" />
+    <Compile Include="36_f_string.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

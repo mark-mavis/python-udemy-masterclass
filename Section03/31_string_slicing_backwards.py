@@ -16,8 +16,3 @@ print(letters[:-9:-1])
 print(letters[-1:-10:-1])
 
 
-Itemlist = "item1", "item2", "item3", "item4", "item5"
-print(Itemlist[3])      #item4
-print(Itemlist[3][0:3:1]    #ite
-
-print(Itemlist[0][0:4:2] Itemlist[1][0:4:1] Itemlist[0:4:2] Itemlist[0:4:1])
