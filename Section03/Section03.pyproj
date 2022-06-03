@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>34_string_replacement.py</StartupFile>
+    <StartupFile>Section 4\48_using_and_or_in_conditions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,18 +21,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="18_escape_character.py" />
-    <Compile Include="16_printing.py" />
-    <Compile Include="17_strings.py" />
-    <Compile Include="20_variables_and_types.py" />
-    <Compile Include="22_numeric_data_types.py" />
-    <Compile Include="24_expressions.py" />
-    <Compile Include="26_string_indexing.py" />
-    <Compile Include="28_string_slicing.py" />
-    <Compile Include="31_string_slicing_backwards.py" />
-    <Compile Include="33_string_operators.py" />
-    <Compile Include="34_string_replacement.py" />
-    <Compile Include="36_f_string.py" />
+    <Compile Include="Section 3\18_escape_character.py" />
+    <Compile Include="Section 3\16_printing.py" />
+    <Compile Include="Section 3\17_strings.py" />
+    <Compile Include="Section 3\20_variables_and_types.py" />
+    <Compile Include="Section 3\22_numeric_data_types.py" />
+    <Compile Include="Section 3\24_expressions.py" />
+    <Compile Include="Section 3\26_string_indexing.py" />
+    <Compile Include="Section 3\28_string_slicing.py" />
+    <Compile Include="Section 3\31_string_slicing_backwards.py" />
+    <Compile Include="Section 3\33_string_operators.py" />
+    <Compile Include="Section 3\34_string_replacement.py" />
+    <Compile Include="Section 3\36_f_string.py" />
+    <Compile Include="Section 4\39_bloack_and_statements.py" />
+    <Compile Include="Section 4\40_if_statements.py" />
+    <Compile Include="Section 4\41_else_if.py" />
+    <Compile Include="Section 4\48_using_and_or_in_conditions.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Section 4\" />
+    <Folder Include="Section 3\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
