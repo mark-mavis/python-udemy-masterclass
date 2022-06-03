@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section 4\48_using_and_or_in_conditions.py</StartupFile>
+    <StartupFile>Section 4\52_in_and_out.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,9 @@
     <Compile Include="Section 4\40_if_statements.py" />
     <Compile Include="Section 4\41_else_if.py" />
     <Compile Include="Section 4\48_using_and_or_in_conditions.py" />
+    <Compile Include="Section 4\50_boolean_expressions.py" />
+    <Compile Include="Section 4\51_truthy_values.py" />
+    <Compile Include="Section 4\52_in_and_out.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Section 4\" />
