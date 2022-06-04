@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section 4\52_in_and_out.py</StartupFile>
+    <StartupFile>Section 4\58_iterating_over_range.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -40,6 +40,9 @@
     <Compile Include="Section 4\50_boolean_expressions.py" />
     <Compile Include="Section 4\51_truthy_values.py" />
     <Compile Include="Section 4\52_in_and_out.py" />
+    <Compile Include="Section 4\53_challenge.py" />
+    <Compile Include="Section 4\55_for_loop.py" />
+    <Compile Include="Section 4\58_iterating_over_range.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Section 4\" />
