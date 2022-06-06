@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section 4\67_random_module_import.py</StartupFile>
+    <StartupFile>Section 4\71_binary_search.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -48,6 +48,7 @@
     <Compile Include="Section 4\61_continue.py" />
     <Compile Include="Section 4\64_while_loops.py" />
     <Compile Include="Section 4\67_random_module_import.py" />
+    <Compile Include="Section 4\71_binary_search.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Section 4\" />
