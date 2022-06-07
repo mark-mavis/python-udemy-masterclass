@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section 4\79_conditional_debugging.py</StartupFile>
+    <StartupFile>Section 5\103_replacing_slices.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -51,7 +51,12 @@
     <Compile Include="Section 4\71_binary_search.py" />
     <Compile Include="Section 4\77_for_else_loop.py" />
     <Compile Include="Section 4\79_conditional_debugging.py" />
-    <Compile Include="Section 5\86_lists_into.py" />
+    <Compile Include="Section 5\102_creating_lists.py" />
+    <Compile Include="Section 5\086_lists_into.py" />
+    <Compile Include="Section 5\096_enumerate_function.py" />
+    <Compile Include="Section 5\098_sorting_lists.py" />
+    <Compile Include="Section 5\099_built_in_functions.py" />
+    <Compile Include="Section 5\103_replacing_slices.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Section 5\" />

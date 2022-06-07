@@ -43,7 +43,7 @@ while min_range != max_range:
     else:
         print(f"Computer found the answer! : {answer} in {num_guesses} guesses")
         ax = plt.axes(projection='3d')
-        #ax.scatter3D()
+        ax.scatter3D(x, range_list[:][1], range_list[:][2])
         break
     comp_guess = random.randint(min_range, max_range)
 else:
