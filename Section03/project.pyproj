@@ -5,7 +5,7 @@
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Section 5\117_print_revisited.py</StartupFile>
+    <StartupFile>Section 5\119_split_method.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -61,6 +61,7 @@
     <Compile Include="Section 5\111_algorithms_performance.py" />
     <Compile Include="Section 5\113_nested_lists.py" />
     <Compile Include="Section 5\117_print_revisited.py" />
+    <Compile Include="Section 5\119_split_method.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Section 5\" />
