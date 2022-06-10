@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f458855e-cc2c-41fc-8c47-b2609809c45d</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Section 5\103_replacing_slices.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Section 5\117_print_revisited.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Section03</Name>
+    <Name>project</Name>
     <RootNamespace>Section03</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -57,6 +58,9 @@
     <Compile Include="Section 5\098_sorting_lists.py" />
     <Compile Include="Section 5\099_built_in_functions.py" />
     <Compile Include="Section 5\103_replacing_slices.py" />
+    <Compile Include="Section 5\111_algorithms_performance.py" />
+    <Compile Include="Section 5\113_nested_lists.py" />
+    <Compile Include="Section 5\117_print_revisited.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Section 5\" />

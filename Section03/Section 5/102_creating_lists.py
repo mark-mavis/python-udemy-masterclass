@@ -16,8 +16,7 @@ print(even)
 digits = sorted("432985617")
 digits_obj = list("432985617")
 
-print(digits)       # prints a list of characters that are each strings of 1
-
+print(f"{digits}")       # prints a list of characters that are each strings of 1
 print(f"{id(digits_obj)}: {digits_obj}")
 
 sorted_objects = sorted(digits_obj)
