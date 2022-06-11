@@ -2,15 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6c97a801-dc4c-40cf-b8cb-a5ba5271eb1d</ProjectGuid>
+    <ProjectGuid>5531efe4-2111-40c1-89b6-27f0db0073a3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>131_nesting_exercise.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Section5_ListsandTuples</Name>
-    <RootNamespace>Section5_ListsandTuples</RootNamespace>
+    <Name>Section3_Basics</Name>
+    <RootNamespace>Section3_Basics</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,12 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="118_join_method.py" />
-    <Compile Include="119_split_method.py" />
-    <Compile Include="120_exercise_adder.py" />
-    <Compile Include="121_tuples.py" />
-    <Compile Include="131_nesting_exercise.py" />
-    <Compile Include="132_jukebox.py" />
+    <Compile Include="16_printing.py" />
+    <Compile Include="17_strings.py" />
+    <Compile Include="18_escape_character.py" />
+    <Compile Include="20_variables_and_types.py" />
+    <Compile Include="22_numeric_data_types.py" />
+    <Compile Include="24_expressions.py" />
+    <Compile Include="26_string_indexing.py" />
+    <Compile Include="28_string_slicing.py" />
+    <Compile Include="31_string_slicing_backwards.py" />
+    <Compile Include="33_string_operators.py" />
+    <Compile Include="34_string_replacement.py" />
+    <Compile Include="36_f_string.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
