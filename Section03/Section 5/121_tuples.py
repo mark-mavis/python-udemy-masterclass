@@ -2,7 +2,12 @@
 
 #Tuples are immutable which means they can not be changed
 
-# Advantages of tuples, they can always be unpacked successfully because tuples cant be changed, you always know how many items there are to unpack
+#Advantages of tuples, they can always be unpacked successfully because tuples cant be changed, you always know how many items there are to unpack
+
+#Deciding What to Use....
+# - Depends on whether or not you want to add new items.
+#	You can't append to a tuple because tuples are immutable
+
 
 data = 1, 2, 3
 x, y, z = data
@@ -25,8 +30,13 @@ albums = [
 	("Ride the Lightning", "Metallica", 1984)
 	]
 
+# Unpacking Tuples
+
 for album in albums:
 	title, artist, release_year = album
+	print(f"Artist: {artist} Album Title: {title} Release Year: {release_year}")
+
+for title, artist, release_year in albums:
 	print(f"Artist: {artist} Album Title: {title} Release Year: {release_year}")
 
 # Nested Tuples
