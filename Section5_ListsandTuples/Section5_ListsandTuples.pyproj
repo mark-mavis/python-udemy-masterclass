@@ -11,6 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>Section5_ListsandTuples</Name>
     <RootNamespace>Section5_ListsandTuples</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
