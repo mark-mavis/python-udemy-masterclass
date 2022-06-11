@@ -12,12 +12,8 @@ for album_title, artist, release_year, songs in albums:
             print(song)
 
 while True:
-    for index, album in enumerate(albums):
-        title, artist, year, songs = album
-        print(index, title, artist, year, songs)
-    break
-
-while True:
-    for index, (title, artist, year, songs) in enumerate(albums):
-        print(index, title, artist, year, songs)
+    for index, (album_title, artist, year, songs) in enumerate(albums):
+        print(f"{artist} - {album_title}")
+        for index, song in enumerate(songs):
+            print(f"{song[0]}. {song[1]}")
     break
