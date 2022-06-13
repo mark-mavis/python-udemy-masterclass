@@ -1,7 +1,4 @@
 
-from audioop import reverse
-
-
 def multiply():
     print("Hello from the function")
     result = 10.5 * 4
