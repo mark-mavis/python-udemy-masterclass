@@ -5,7 +5,7 @@
     <ProjectGuid>cdf2ad81-10ad-4258-b8a5-b45db5bce28f</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>handling_invalid_arguments.py</StartupFile>
+    <StartupFile>get_integer_challenge.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
