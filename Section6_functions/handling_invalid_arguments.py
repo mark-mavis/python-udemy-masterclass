@@ -15,7 +15,7 @@ def banner_text(text = " ", screen_width = 80):
         output_text = f"**{centered_text}**"
         print(output_text)
 
-width = 140
+width = 60
 
 banner_text("*", width)
 banner_text("Always look on the bright side of life...", width)

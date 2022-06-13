@@ -12,9 +12,24 @@ def multiply(a, b):
     return a*b
 
 def is_palindrom(string):
+    """Compares an alpha numeric string to see if it is a palindrom
+
+    Args:
+        string: strickly alpha-numeric string
+
+    Returns:
+        `bool`
+    """
     return string.casefold() == string[::-1].casefold()
 
 def palindrome_sentence(sentence):
+    """Filters out all non-alpha numeric characters from user input
+
+    Loop that combines all alpha numeric characters from user input
+
+    Returns:
+        `string` iterator
+    """
     sentence = ""
     for char in sentence:
         if char.isalnum():
