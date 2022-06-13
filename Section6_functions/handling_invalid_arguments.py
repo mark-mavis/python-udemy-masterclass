@@ -1,12 +1,23 @@
 
 # Screen Width = 80 and text = " " is setting a default value if no 
 #   argument is included in the function call
-def banner_text(text = " ", screen_width = 80):
+def banner_text(text: str = " ", screen_width: int = 80) -> None:
+    """ Print a string centred, with ** either side.
+  
+    :param text: The string to print.
+        An asterisk (*) will result in a row of asterisks.
+        The default will print a blank line, with a ** border at
+        the left and right edges.
+    :param screen_width: The overall width to print within
+        (including the 4 spaces for the ** either side).
+    :raises ValueError: if the supplied string is too long to fit.
+    """
+    
     text_length = len(text)
 
     if text_length > screen_width:
         print("The Text is too long!")
-        raise ValueError(f"String '{text}, is longer then Screewidth {screen_width}")
+        # raise ValueError(f"String '{text}, is longer then Screewidth {screen_width}")
     
     if text == "*":
         print("*" * screen_width)
@@ -34,3 +45,4 @@ banner_text("jalkjfaslkjfoiajo joiwfhjowijef aoiwef aijfoawiej fawj  waejf iojf 
 # This function is not using the return value. None is returned
 result = banner_text("Nothing is returned", 20)
 print(result)
+print(banner_text.__doc__)

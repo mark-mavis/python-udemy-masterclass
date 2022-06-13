@@ -1,6 +1,3 @@
-from webbrowser import get
-
-
 def get_integer():
     """Get an integer from Standart Input (stdin).
     
