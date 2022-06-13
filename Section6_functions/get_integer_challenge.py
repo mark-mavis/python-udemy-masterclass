@@ -1,8 +1,9 @@
 def get_integer():
     """
-        Prompts the user to enter a integer value and returns the strings
-        as an integer.
-    """
+        prompts user to enter a string integer value
+    Returns:
+        integer value
+    """    
     while True:
         temp = input("Please Enter and Integer Value")
         if temp.isdigit():
