@@ -1,5 +1,5 @@
 
-def multiply_first():
+def multiply_first() -> None:
     print("Hello from the function")
     result = 10.5 * 4
     return result
@@ -20,7 +20,7 @@ def is_palindrom(string: str) -> bool:
     """
     return string.casefold() == string[::-1].casefold()
 
-def palindrome_sentence(sentence: str):
+def palindrome_sentence(sentence: str) -> bool:
     """Filters out all non-alpha numeric characters from user input
 
     Loop that combines all alpha numeric characters from user input
