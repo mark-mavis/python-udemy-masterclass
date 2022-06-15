@@ -16,4 +16,3 @@
 
 
 file = open("textfile.txt", mode='r', encoding='utf-8')
-while(file.readline())
