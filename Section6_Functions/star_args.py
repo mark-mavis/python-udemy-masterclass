@@ -13,6 +13,7 @@ def test_star(*args):   # *args specifies that args is an unpacked tuple
   print(args)           # print the tuple
   for x in args:        # print the unpacked values
     print(x)
-    
-    
+
+
+
 test_star(0, 1, 2, 3, 4, 5)
